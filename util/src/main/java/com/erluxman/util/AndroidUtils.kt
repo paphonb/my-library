@@ -20,9 +20,5 @@ class AndroidUtils {
             else view.visibility = View.GONE
         }
 
-
-        fun log(logValue: String) {
-            Log.d(DEFAULT_TAG, logValue)
-        }
     }
 }
